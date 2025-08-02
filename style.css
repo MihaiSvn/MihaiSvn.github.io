@@ -25,7 +25,7 @@ img{
 }
 body{
     min-height: 100vh;
-    font-size: clamp(0.8rem, 2.5vw, 15px);
+    font-size: clamp(1.1rem, 20px, 20px);
     font-family: Outfit, sans-serif;
     display:grid;
     place-content: center;
@@ -37,10 +37,10 @@ body{
     flex-flow:column wrap;
     background-color: var(--WHITE);
     border-radius: 5%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    max-width: 230px;
-    height: 350px;
+    max-width: 400px;
+    height: 600px;
 }
 
 .text-container__figure{
@@ -56,14 +56,14 @@ body{
 }
 
 .text-container__title{
-    padding:1.5rem 1.5rem 1.5rem;
+    padding:0 1.5rem 0;
     font-weight: 700;
     color:var(--TITLE-COLOR);
     text-align: center;
 }
 
 .text-container__text{
-    font-size:clamp(0.5rem, 2vw, 13px);
+    font-size:clamp(0.8rem, 15px, 15px);
     padding:0 1.5rem 0;
     font-weight: 400;
     color:var(--TEXT-COLOR);
